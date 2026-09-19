@@ -1,0 +1,39 @@
+# ===== 依赖与构建产物 =====
+node_modules/
+target/
+dist/
+build/
+out/
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+
+# ===== 日志 =====
+*.log
+*.log.*
+logs/
+
+# ===== 运行时数据 / 用户上传 =====
+upload/
+data/
+*.db
+*.sqlite
+
+# ===== 临时 / QA 产物 =====
+qa_*.txt
+.qa-*.txt
+.verify-cache/
+.playwright-cli/
+backend-run*.log*
+
+# ===== 敏感配置（绝不提交真实密钥）=====
+.env
+.env.*
+application-local.yml
+!application-local.yml.example
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
